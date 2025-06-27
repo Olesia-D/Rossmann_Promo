@@ -73,16 +73,13 @@ https://files.fast.ai/part2/lesson14/rossmann.tgz
 ## Tools Used
 - **SQL**: Data cleaning and initial analysis, data manipulation (DBeaver).
 - **Python**: pandas (data manipulation), seaborn/matplotlib (visualization).
+- **PowerBI**: Visualisation
 - **GitHub**: Project hosting.
 
-## How to Run
-1. Clone the repository: `git clone https://github.com/Olesia-D/Rossmann-Sales-Analysis.git`
-2. Run `rossmann-data-prepare.sql` in a SQL environment (e.g., DBeaver) to preprocess the data.
-3. Open `Rossmann Promo data.ipynb` in Jupyter Notebook to explore visualizations.
 
 ## Future Improvements
 - Extend the analysis to include predictive modeling after learning machine learning techniques.
 - Explore customer behavior trends in more detail.
 
 ## Contact
-For questions or feedback, reach out via (https://www.linkedin.com/in/olesia-zahudaieva-a950b82a0/)
+For questions or feedback, reach out via (https://www.linkedin.com/in/olesia-zahudaieva/)
