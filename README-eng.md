@@ -57,11 +57,11 @@ https://files.fast.ai/part2/lesson14/rossmann.tgz
         The average check increases with promotions, meaning they not only draw more customers but also raise spending per customer. This is a positive signal for the business.  
         However, in stores of type B, the introduction of promotions actually decreases sales. Nevertheless, if we look at the store revenue metrics by day, we can see that this type of store generates 83% of its         revenue on Sundays. This indicates that type B stores are primarily focused on Sunday operations.
         Given the context that most stores in Germany are closed on Sundays, we can conclude that type B stores are mostly located at train stations and cater to customers who need to make urgent purchases.               Therefore, introducing promotions in these stores is not reasonable—customers will buy what they urgently need regardless of any discounts. 
-        ![Rossmann Sunday Sales](Rossman Sunday Sales.png)
+        ![Rossmann Sunday Sales](Rossman Sunday Sales.png)(https://github.com/Olesia-D/Rossmann_Promo/blob/main/Rossman%20Sunday%20Sales.png)
 
         Additionally, when analyzing the revenue from assortment B separately, we can see that it is sold exclusively in type B stores, with the highest revenue generated on Sundays. Therefore, there is no need          to introduce promotions for this product category either.
 	 
-       ![Rossmann Sunday Sales](Rossmann Assortment b.png)
+       [![Rossmann Sunday Sales](Rossmann Assortment b.png)](https://github.com/Olesia-D/Rossmann_Promo/blob/main/Rossmann%20Assortment%20b.png)
         
 
 **Optimization (When/Where to run promotions?):**  
