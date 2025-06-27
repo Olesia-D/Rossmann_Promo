@@ -1,6 +1,6 @@
 # Rossmann Sales Descriptive Analysis
 
-![Rossmann Sunday Sales](Rossmann Promo Sales Analysis.png)
+![Rossmann Promo Sales Analysis.png](https://github.com/Olesia-D/Rossmann_Promo/blob/main/Rossmann%20Promo%20Sales%20Analysis.png)
 
 
 ## Overview
