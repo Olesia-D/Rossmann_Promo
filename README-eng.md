@@ -1,5 +1,8 @@
 # Rossmann Sales Descriptive Analysis
 
+![Rossmann Sunday Sales](Rossmann_Promo/Rossmann Promo Sales Analysis.png)
+
+
 ## Overview
 This project analyzes sales data from the Rossmann dataset to understand the impact of promotions on revenue across different store types and days of the week. The dataset includes sales records (`train`) and store metadata (`store`), which are cleaned, merged, and explored through SQL and Python.
 
@@ -8,7 +11,8 @@ The project was developed as part of a portfolio to demonstrate skills in SQL, P
 ## Project Goals
 The main objectives of this project are:  
 1. **Determine whether investing in promotional campaigns is worthwhile** by analyzing their impact on sales.  
-2. **Identify which day of the week or store type benefits most from promotions** in terms of average sales per customer (average check).  
+2. **Identify which day of the week or store type benefits most from promotions** in terms of average sales per customer
+	 (average check).  
 3. **Demonstrate the ability to analyze data and draw actionable insights** that can benefit retail businesses.
 
 ## Dataset
@@ -28,7 +32,10 @@ https://files.fast.ai/part2/lesson14/rossmann.tgz
 - **`average_check_by_dow.png`**: Visualization of average check with and without promo by day of week.
 - **`average_sales_by_dow.png`**: Visualization of average sum of sales with and without promo by day of week.
 - **`average_sales_by_storetype.png`**: Visualization of average sales with and without promo by store type
-- **`average_sales_promo.png`**: Visualization of sum of average sales with and without promo 
+- **`average_sales_promo.png`**: Visualization of sum of average sales with and without promo
+- **`Rossman Sunday Sales.png`**: Visualisation of sum of sales on Sunday
+- **`Rossmann Assortment b`**: Visualisation of sum of sales by assortment type b
+- **`Rossmann Promo Sales Analysis.png`**: Dashboard of analysis
 
 ## Methodology
 1. **Data Cleaning (SQL)**:
@@ -42,18 +49,25 @@ https://files.fast.ai/part2/lesson14/rossmann.tgz
    - Explored the effect of promotions across different store types.
 
 ## Key Findings
-**Overall Conclusion:** Promotions are most effective on Mondays (+56%) and in type A stores (+45%). 
-        They not only attract more customers but also increase the average check (e.g., from 8.86 to 11.03 on Mondays).  
+**Overall Conclusion:** Promotions are most effective on Mondays (the profit more than doubled) and in type A stores (+231.39 million). 
+        They not only attract more customers but also increase the average check (e.g., from 8.38 to 10.36 on Mondays).  
 
 **Business Perspective (Is it worth investing in promotions?):**  
-        Promotions are effective: they boost sales by 28–56% across days and by 18–45% across store types.  
+        Promotions are effective: they boost sales across days and store types.  
         The average check increases with promotions, meaning they not only draw more customers but also raise spending per customer. This is a positive signal for the business.  
-        However, in type B stores, the effect is smaller (+18%), so it’s worth checking if the promotions justify the costs in these locations.  
+        However, in stores of type B, the introduction of promotions actually decreases sales. Nevertheless, if we look at the store revenue metrics by day, we can see that this type of store generates 83% of its         revenue on Sundays. This indicates that type B stores are primarily focused on Sunday operations.
+        Given the context that most stores in Germany are closed on Sundays, we can conclude that type B stores are mostly located at train stations and cater to customers who need to make urgent purchases.               Therefore, introducing promotions in these stores is not reasonable—customers will buy what they urgently need regardless of any discounts. 
+        ![Rossmann Sunday Sales](Rossmann_Promo/Rossman Sunday Sales.png)
+
+         Additionally, when analyzing the revenue from assortment B separately, we can see that it is sold exclusively in type B stores, with the highest revenue generated on Sundays. Therefore, there is no need          to introduce promotions for this product category either.
+       ![Rossmann Sunday Sales](Rossmann_Promo/Rossmann Assortment b.png)
+        
 
 **Optimization (When/Where to run promotions?):**  
-        **When:** The best days for promotions are Monday (+56%) and Tuesday (+52%), where the impact is strongest. 
-          On Thursday and Friday, the effect is lower (28–30%), so promotions could be less frequent there.  
-        **Where:** Focus on type A stores (+45%), where the effect is most significant. 
+        **When:** The best days for promotions are Monday and Tuesday, where the impact is strongest. 
+          On Thursday and Friday, the effect is lower, so promotions could be less frequent there.
+          According to the data, promotions are not applied on Saturdays. It is recommended to test the introduction of promotions on this day, as the data shows that Saturday already generates the highest                  revenue of the week, even without any promotions. This revenue could potentially increase further if promotions are implemented. 
+        **Where:** Focus on type A stores, where the effect is most significant. 
           For type B stores, it’s worth testing alternative strategies, as standard promotions are less effective.
 
 ## Tools Used
