@@ -35,6 +35,7 @@ average_sales_promo.png: Visualisierung der Summe der durchschnittlichen Umsätz
 Rossman Sunday Sales.png: Visualisierung der Summe der Umsatz am Sonntag
 Rossmann Assortment b: Visualisierung der Summe der Umsatz nach Assortment Type b
 Rossmann Promo Sales Analysis.png: gesamt Dashboard 
+Visualisation.pbix: PowerBI-File mit Dashboard
 
 
 ## Methodik
