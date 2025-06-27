@@ -36,6 +36,7 @@ https://files.fast.ai/part2/lesson14/rossmann.tgz
 - **`Rossman Sunday Sales.png`**: Visualisation of sum of sales on Sunday
 - **`Rossmann Assortment b`**: Visualisation of sum of sales by assortment type b
 - **`Rossmann Promo Sales Analysis.png`**: Dashboard of analysis
+- - **`Visualisation.pbix`**: PowerBI-file with dashboard
 
 ## Methodology
 1. **Data Cleaning (SQL)**:
